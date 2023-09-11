@@ -1,0 +1,42 @@
+[
+	{
+		"id": "1",
+		"title": "old cars",
+		"price": 10000,
+		"description": "nice cars",
+		"image": {
+			"src": "/product_1.jpeg",
+			"alt": "cars"
+		}
+	},
+	{
+		"id": "2",
+		"title": "Child bike",
+		"price": 25,
+		"description": "nice bike",
+		"image": {
+			"src": "/product_2.jpeg",
+			"alt": "bike"
+		}
+	},
+	{
+		"id": "3",
+		"title": "brick wall",
+		"price": 4,
+		"description": "nice wall",
+		"image": {
+			"src": "/product_3.jpeg",
+			"alt": "bricks"
+		}
+	},
+	{
+		"id": "4",
+		"title": "Boat",
+		"price": 5414,
+		"description": "its getting expensive boat",
+		"image": {
+			"src": "/product_4.jpeg",
+			"alt": "boat"
+		}
+	}
+]
