@@ -1,6 +1,16 @@
-import products from "./static-products.json";
+import { type Metadata } from "next";
+import { getProductsList } from "@/api/products/products";
 import { ProductList } from "@/components/organisms/ProductList";
 
+export const metadata: Metadata = {
+	title: "Produkty",
+};
+
 export default async function ProductsPage() {
-	return <ProductList products={products}></ProductList>;
+	const products = await getProductsList();
+	return (
+		<>
+			<ProductList products={products}></ProductList>
+		</>
+	);
 }

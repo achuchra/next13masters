@@ -8,7 +8,8 @@
 	"graphql-config.dotEnvPath": "./.env",
 	"graphql-config.load.configName": "graphql",
 	"files.associations": {
-		"*.css": "tailwindcss"
+		"*.css": "tailwindcss",
+		"*.mdx": "markdown"
 	},
 	// suggests tailwind css classes outside css files also
 	"editor.quickSuggestions": {

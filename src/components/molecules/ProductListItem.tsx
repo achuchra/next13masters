@@ -4,8 +4,11 @@ import { type ProductItem } from "@/types/ProductItem";
 
 export const ProductListItem = ({ product }: { product: ProductItem }) => {
 	return (
-		<div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-			<ProductListItemImage src={product.image.src} alt={product.image.alt}></ProductListItemImage>
+		<div className="flex h-[100%] flex-col items-center justify-center overflow-hidden rounded-lg bg-white p-6 shadow-lg">
+			<ProductListItemImage
+				src={product.image}
+				alt={product.title}
+			></ProductListItemImage>
 			<ProductListItemDescription {...product}></ProductListItemDescription>
 		</div>
 	);

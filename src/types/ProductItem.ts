@@ -3,7 +3,7 @@ export type ProductItem = {
 	title: string;
 	description: string;
 	price: number;
-	image: ImageSource;
+	image: string;
 };
 
 export type ImageSource = {
